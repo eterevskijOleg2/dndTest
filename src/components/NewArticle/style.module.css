@@ -1,0 +1,23 @@
+.article {
+    width: 300px;
+    min-height: 50px;
+    background: #fff;
+    border: 1px solid grey;
+    padding-left: 12px;
+    margin: 3px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title {
+    color: grey;
+    font-size: 20px;
+}
+
+.expandButton.open {
+    transform: rotate(90deg);
+}
